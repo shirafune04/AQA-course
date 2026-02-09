@@ -1,4 +1,4 @@
-public class Ll13 {
+public class L13 {
     public static void main(String[] args) {
         int size = 3;
         int[][] matrix = new int[size][size];
