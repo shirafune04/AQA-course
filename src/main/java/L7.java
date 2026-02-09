@@ -1,7 +1,6 @@
-public class L7 {
+public class L7{
     public static boolean checkNumber(int number) {
-        return number <0;
-
+        return number < 0;
     }
 
     public static void main(String[] args) {
@@ -11,4 +10,3 @@ public class L7 {
         System.out.println(checkNumber(-10));
     }
 }
-
