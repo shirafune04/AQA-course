@@ -90,7 +90,7 @@ class Triangle implements Figure {
     public String getBorderColor() { return borderColor; }
 }
 
-class Main {
+class TestFigures {
     public static void main(String[] args) {
         Figure[] figures = {
                 new Circle(6, "Зелёный", "Жёлтый"),
