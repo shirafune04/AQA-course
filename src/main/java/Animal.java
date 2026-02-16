@@ -85,7 +85,7 @@ class Cat extends Animal {
     void eat(Bowl bowl) {
         if (bowl.food >= appetite) {
             bowl.food -= appetite;
-            this.full = true;  // ⭐ МЕНЯЕМ ПОЛЕ КЛАССА!
+            this.full = true;
             System.out.println(name + " поел. Съел " + appetite);
         } else {
             System.out.println(name + " — мало еды! Нужно " + appetite + ", в миске " + bowl.food);
@@ -99,16 +99,16 @@ class Main {
         new Dog("Бобик").run(150);
         new Dog("Бобик").run(600);
         new Dog("Бобик").swim(5);
-        new Cat("Барсик", 15).run(100);
+        new Cat("Барсик", 10).run(100);
         new Cat("Барсик", 15).swim(10);
 
-        System.out.println("\nЖивотных: " + Animal.animalCount + ", Собак: " + Dog.dogCount + ", Котов: " + Cat.catCount);
+        System.out.println("\nЖивотных: " + Animal.animalCount + "\nСобак: " + Dog.dogCount + "\nКотов: " + Cat.catCount);
 
         Bowl bowl = new Bowl(20);
         System.out.println("\nВ миске: " + bowl.food);
 
         Cat[] cats = {
-                new Cat("Барсик", 10),
+                new Cat("Барсик", 5),
                 new Cat("Мурзик", 20),
                 new Cat("Снежок", 15),
         };
@@ -116,7 +116,8 @@ class Main {
         for (Cat c : cats) c.eat(bowl);
 
         System.out.println("\nСытость:");
-        for (Cat c : cats) System.out.println(c.name + ": " + (c.full ? "✅" : "❌"));
+        for (Cat c : cats) {System.out.println(c.name + ": " + (c.full ? "✅" : "❌"));
+        }
 
         bowl.addFood(10);
         System.out.println("В миске теперь: " + bowl.food);
@@ -126,7 +127,7 @@ class Main {
         }
 
         System.out.println("\nИтог:");
-        for (Cat c : cats) System.out.println(c.name + ": " + (c.full ? "+" : "х"));
+        for (Cat c : cats) System.out.println(c.name + ": " + (c.full ? "✅" : "❌"));
         System.out.println("В миске: " + bowl.food);
     }
 }
