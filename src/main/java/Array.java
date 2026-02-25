@@ -99,7 +99,6 @@ class ArrayProcessor {
         }
         System.out.println();
 
-        // Тест 3: Неправильные данные
         System.out.println("Тест 3: МАССИВ С НЕЧИСЛОВЫМИ ДАННЫМИ");
         try {
             int result = ArrayProcessor.processArray(wrongDataArray);
