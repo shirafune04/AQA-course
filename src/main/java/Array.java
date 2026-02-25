@@ -86,7 +86,6 @@ class ArrayProcessor {
         } catch (MyArrayDataException e) {
             System.out.println("Ошибка данных: " + e.getMessage());
         }
-        System.out.println();
 
         System.out.println("Тест 2: НЕПРАВИЛЬНЫЙ МАССИВ");
         try {
@@ -97,7 +96,6 @@ class ArrayProcessor {
         } catch (MyArrayDataException e) {
             System.out.println("Ошибка данных: " + e.getMessage());
         }
-        System.out.println();
 
         System.out.println("Тест 3: МАССИВ С НЕЧИСЛОВЫМИ ДАННЫМИ");
         try {
