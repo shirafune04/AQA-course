@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5af204f1-4f19-4419-987f-85e7551b7204" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PhoneBook.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shirafune04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shirafune04/AQA-course.git&quot;,
+    &quot;accountId&quot;: &quot;c656a873-8f22-4ba7-af16-85d54c14bf68&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="39DGoZxsTJjOMuTn2AedhfBaEBT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Animal.executor": "Run",
+    "Application.Figure.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.L1.executor": "Run",
+    "Application.L10.executor": "Run",
+    "Application.L11.executor": "Run",
+    "Application.L12.executor": "Run",
+    "Application.L13.executor": "Run",
+    "Application.L14.executor": "Run",
+    "Application.L2.executor": "Run",
+    "Application.L3.executor": "Run",
+    "Application.L4.executor": "Run",
+    "Application.L5.executor": "Run",
+    "Application.L6.executor": "Run",
+    "Application.L7.executor": "Run",
+    "Application.L8.executor": "Run",
+    "Application.L9.executor": "Run",
+    "Application.Lesson.executor": "Run",
+    "Application.Lesson12.executor": "Run",
+    "Application.Ll13.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Park.executor": "Run",
+    "Application.Product.executor": "Run",
+    "Application.Product1.executor": "Run",
+    "Application.SimpleDiagonal.executor": "Run",
+    "Application.TestFigures.executor": "Run",
+    "Application.lesson.executor": "Run",
+    "Application.ll14.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.simpleDiagonal.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Lesson__6",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Shirafune/IdeaProjects/LESSON 1/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LESSON 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LESSON 1" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5af204f1-4f19-4419-987f-85e7551b7204" name="Changes" comment="" />
+      <created>1770223404165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770223404165</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
