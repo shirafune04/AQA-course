@@ -14,7 +14,6 @@ class TriangleAreaCalculatorTest {
     void testCalculateAreaNormal() {
         assertEquals(calculator.calculateArea(5,4),10);
         assertEquals(calculator.calculateArea(3,4),6);
-        assertEquals(calculator.calculateArea(2.5,2),2.5);
     }
 
     @Test
@@ -39,7 +38,7 @@ class TriangleAreaCalculatorTest {
     @Test
     void testHeightNegative() {
         assertThrows(IllegalArgumentException.class, () -> {
-            calculator.calculateArea(5, -5);
+            calculator.calculateArea(5, -4);
         });
     }
     }

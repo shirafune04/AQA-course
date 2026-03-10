@@ -29,7 +29,7 @@ class FactorialCalculatorTest {
     @Test
     void testFactorialOfNegative() {
         assertThrows(IllegalArgumentException.class, () -> {
-            calculator.calculateFactorial(-1);
+            calculator.calculateFactorial(-5);
         });
     }
 
