@@ -27,11 +27,11 @@ import org.testng.annotations.*;
 
         @Test(expectedExceptions = IllegalArgumentException.class)
         public void testFactorialOfNegative() {
-            calculator.calculateFactorial(-1);
+            calculator.calculateFactorial(-6);
         }
 
         @Test(expectedExceptions = ArithmeticException.class)
         public void testFactorialOverflow() {
-            calculator.calculateFactorial(100);
+            calculator.calculateFactorial(200);
         }
     }
